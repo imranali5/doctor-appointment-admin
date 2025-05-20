@@ -1,5 +1,6 @@
 {
-  "name": "doctor-app",
+  "name": "doctor-appointment-admin",
+  "homepage": " https://imranali5.github.io/doctor-appointment-admin/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,9 +9,12 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "predeploy":"npm run dev"
+    "deploy":"gh-pages -d dish"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.7",
+    "gh-pages": "^6.3.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "tailwindcss": "^4.1.7"
